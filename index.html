@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz App by Arjun Khatri</title>
+    <link href="https://fonts.googleapis.com/css?family=Vollkorn:regular,500,600,700,800,900,italic,500italic,600italic,700italic,800italic,900italic" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <main id="main">
+    <!-- page 1 -->
+    <div class="container">
+        <img src="./images/mainLogo.png" alt="logo">
+
+        <div class="startNow"><h2>Start Now >>></h2></div>
+
+        <div class="continue">
+            <h3>Continue...</h3>
+        </div>
+
+    </div>
+
+
+    <!-- page 2 -->
+    <div class="container-2">
+        <div class="content2">
+            <div class="logoAndAudio">
+                <img src="./images/guess.png" alt="logo">
+                <div class="volume-And-questionCount">
+                    <img class="audio up audio-icon-toggle" src="./images/audio.png" alt="volume up button" width="25px";>    
+                    <img class="audio off" src="./images/mute.png" alt="volume up button" width="25px";>    
+                    <div class="question-count"><p></p></div>
+                </div>
+            </div>
+
+            <div class="question">
+                <p class="ques"></p>
+            </div>
+            
+            <div class="count-down"><p></p></div>
+
+
+            <div class="options">
+                <div class="option-one optt">
+                    <div class="option">
+                        <p></p>
+                        <img class=" icon" src="./images/checked.png" alt="correct icon">
+                        <img class=" icon" src="./images/remove.png" alt="incorrect icon">
+                    </div>
+                </div>
+
+                <div class="option-two optt">
+                    <div class="option">
+                        <p></p>
+                        <img class=" icon" src="./images/checked.png" alt="correct icon">
+                        <img class=" icon" src="./images/remove.png" alt="incorrect icon">
+                    </div>
+                </div>
+
+                <div class="option-three optt">
+                    <div class="option">
+                        <p></p>
+                        <img class=" icon" src="./images/checked.png" alt="correct icon">
+                        <img class=" icon" src="./images/remove.png" alt="incorrect icon">
+                    </div>
+                </div>
+
+                <div class="option-four optt">
+                    <div class="option">
+                        <p></p>
+                        <img class=" icon" src="./images/checked.png" alt="correct icon">
+                        <img class=" icon" src="./images/remove.png" alt="incorrect icon">
+                    </div>
+                </div>
+            </div>
+            <button class="skipQuestionBtn">Skip >></button>
+        </div>
+     </div>
+
+
+
+     <!-- page 3 - result -->
+      <div class="container-3">
+        <img src="./images/mainLogo.png" alt="logo">
+        <h2>Result</h2>
+
+
+        <div class="bar">
+            <div class="result">
+                <h3></h3>
+            </div>
+        </div>
+        
+        <p class="correctAnswers"></p>
+        <div class="report-container">
+            <h3 class="report"></h3>
+        </div>
+        <button class="retryBtn"><<< Retry</button>
+      </div>
+
+      <footer>
+        <p>Made with ❤️ by Arjun Khatri</p>
+    </footer>
+    </main>
+</body>
+</html>
